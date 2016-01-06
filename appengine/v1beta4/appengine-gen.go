@@ -1216,8 +1216,7 @@ func (s *TrafficSplit) MarshalJSON() ([]byte, error) {
 // is deleted, or their traffic allocation is removed. Allocations must
 // sum to 1. Supports precision up to two decimal places for IP-based
 // splits and up to three decimal places for cookie-based splits.
-type TrafficSplitAllocations struct {
-}
+type TrafficSplitAllocations  map[string]float64
 
 // UrlDispatchRule: Rules to match an HTTP request and dispatch that
 // request to a module.
