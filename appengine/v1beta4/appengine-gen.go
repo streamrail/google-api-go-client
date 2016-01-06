@@ -7,7 +7,7 @@
 //   import "google.golang.org/api/appengine/v1beta4"
 //   ...
 //   appengineService, err := appengine.New(oauthHttpClient)
-package appengine // import "google.golang.org/api/appengine/v1beta4"
+package appengine // import "github.com/streamrail/google-api-go-client/appengine/v1beta4"
 
 import (
 	"bytes"
